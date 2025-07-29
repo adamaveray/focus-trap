@@ -1,0 +1,11 @@
+{
+  "extends": "./node_modules/@averay/codeformat/tsconfig.base.json",
+  "exclude": ["*.mjs"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "verbatimModuleSyntax": true
+  }
+}

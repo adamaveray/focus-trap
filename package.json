@@ -1,0 +1,31 @@
+{
+  "name": "@averay/focus-trap",
+  "description": "A utility to trap keyboard focus within an element.",
+  "author": {
+    "name": "Adam Averay",
+    "url": "https://adamaveray.au"
+  },
+  "license": "MIT",
+  "version": "1.0.0",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./index.ts"
+  },
+  "scripts": {
+    "format": "bun x codeformat fix",
+    "lint": "bun x codeformat check",
+    "release": "bun --bun x bumpp && bun publish --access public",
+    "prepare": "bun --bun x husky"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@averay/codeformat": "^0.2.11",
+    "@types/bun": "latest",
+    "@types/lodash": "^4.17.20",
+    "bumpp": "^10.2.1",
+    "husky": "^9.1.7"
+  }
+}
