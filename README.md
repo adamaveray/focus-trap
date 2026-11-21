@@ -1,3 +1,7 @@
+**This repository has been migrated to Codeberg: [codeberg.org/adamaveray/focus-trap](https://codeberg.org/adamaveray/focus-trap)**
+
+---
+
 # @averay/focus-trap
 
 A utility to trap keyboard focus within an element. This allows preventing "tabbing out" from a modal dialogue element covering a page.
