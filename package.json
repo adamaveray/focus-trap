@@ -1,6 +1,14 @@
 {
   "name": "@averay/focus-trap",
   "description": "A utility to trap keyboard focus within an element.",
+  "homepage": "https://codeberg.org/adamaveray/focus-trap",
+  "bugs": {
+    "url": "https://codeberg.org/adamaveray/focus-trap/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://codeberg.org/adamaveray/focus-trap.git"
+  },
   "author": {
     "name": "Adam Averay",
     "url": "https://adamaveray.au"
